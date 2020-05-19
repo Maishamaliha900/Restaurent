@@ -1,0 +1,488 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:Lato;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: YesevaOne;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*Header css start*/
+.header{
+	width:100%;
+	height: 100vh;
+	background: url(../img/restaurant.png)center top no-repeat;
+	background-size: cover;
+}
+.header .navbar{
+	padding:15px 0;
+}
+.header .navbar .nav-item{
+	margin: 0px 3px;
+}
+.header .navbar .nav-item .nav-link .fa{
+	color: #cc9900;
+	font-size: 20px;
+	transition: 0.4s;
+}
+.header .navbar .nav-item .nav-link .fa:hover{
+	color:#fff;
+}
+.header .navbar .nav-item .nav-link{
+	font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+.header .navbar .nav-item .nav-link:hover{
+	color:#4c4c4c;
+}
+.section-content{
+	text-align: center;
+    color: #fff;
+    font-size: 90px;
+    margin-top: 130px;
+    text-transform: uppercase;
+}
+.section-content h1{
+	padding: 30px 250px;
+    font-weight: 800;
+}
+.section-content img{
+	padding-bottom: 30px;
+}
+.section-content .button{}
+.section-content .btn-secondary{
+	color: #fff;
+    background-color: #0000007d;
+    border-color: transparent;
+    padding: 7px 40px;
+    font-weight: 600;
+    transition: 0.4s linear;
+}
+.section-content .btn-secondary:hover{
+	background-color: #ffffff2e;
+}
+.section-content .btn-outline-light{
+	color: #f8f9fa;
+    background-color: #ffffff2e;
+    background-image: none;
+    border-color: transparent;
+    font-weight: 600;
+    padding: 7px 40px;
+    transition: 0.4s linear;
+}
+.section-content .btn-outline-light:hover{
+	background-color: #0000007d;
+}
+
+/*Service css start*/
+
+.service{
+	width:100%;
+	padding: 80px 0;
+	background: url(../img/Section.png)center top no-repeat;
+	background-size: cover;
+}
+.service .inner-service{
+	text-align: center;
+
+}
+.service .inner-service h3{
+	font-size: 36px;
+	color:#cc9900;
+	font-weight: 600;
+}
+.service .inner-service img{
+	margin:30px 0;
+}
+.service .inner-service p{
+	font-size: 16px;
+	color: #4c4c4c;
+}
+/*Ingredients css start*/
+
+.ingredients{
+	width: 100%;
+	/*height: 100vh;*/
+	padding: 80px 0;
+	background: url(../img/restaurant2.png)center top no-repeat;
+	background-size: cover;
+}
+.ingredients .box{
+	background: #00000073;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+.ingredients .box h3{
+	font-weight: 600;
+}
+.ingredients .box img{
+	padding: 5px;
+}
+.ingredients .box p{
+	padding: 25px 10px;
+}
+/*Menu Section css start*/
+
+.menu{
+	width: 100%;
+	padding: 80px 0;
+	background: url(../img/Section2.png)center top no-repeat;
+	background-size: cover;
+}
+.menu .menu-box{
+	text-align: center;
+    padding: 100px 80px;
+}
+.menu .menu-box1 {
+    text-align: center;
+    padding: 32px 60px;
+}
+
+.menu .menu-box h3{
+	font-size: 36px;
+	color:#cc9900; 
+}
+.menu .menu-box1 h3{
+	font-size: 36px;
+	color:#cc9900; 
+}
+.menu .menu-box2 h3{
+	font-size: 36px;
+	color:#cc9900; 
+}
+.menu .menu-box img{
+	padding: 20px 0;
+}
+
+.menu .menu-box h5{
+	font-size: 20px;
+    color: #cc9900;
+    margin-top: 10px;
+    border-bottom: 1px solid #cc9900;
+}
+.menu .menu-box1 h5{
+	font-size: 20px;
+    color: #cc9900;
+    margin-top: 10px;
+    border-bottom: 1px solid #cc9900;
+}
+.menu .menu-box2 h5{
+	font-size: 20px;
+    color: #cc9900;
+    margin-top: 10px;
+    border-bottom: 1px solid #cc9900;
+}
+.menu .menu-box1 .divider{
+	border: 1px solid #c89f2d;
+    margin: 20px;
+}
+.menu .menu-box1 span {
+    margin-left: 293px;
+    background: #c89f2d;
+    padding: 2px 12px;
+    color: #fff;
+    font-size: 16px;
+}
+.menu .menu-box2 span {
+    margin-left: 293px;
+    background: #c89f2d;
+    padding: 2px 12px;
+    color: #fff;
+    font-size: 16px;
+}
+.menu .menu-box2{
+	text-align: center;
+    padding: 32px 60px;
+}
+.menu .menu-box2 .divider{
+	border: 1px solid #c89f2d;
+    margin: 10px;
+}
+.menu .menu-box h5{
+	font-size: 20px;
+    color: #cc9900;
+    border-bottom: 1px solid #cc9900;
+}
+
+
+
+/*reviews css start*/
+.reviews{
+	width: 100%;
+	padding: 80px 0;
+	background: url(../img/restaurant3.png)center top no-repeat;
+	background-size: cover;
+}
+.reviews .review-box{
+	background: #000000bf;
+    width: 56%;
+    height: 103%;
+    text-align: center;
+    margin-left: 200px;
+    color: #fff;
+    padding: 38px;
+}
+.reviews .review-box h3{
+	padding: 30px 0;
+    font-size: 36px;
+}
+.reviews .review-box img{
+	margin-bottom: 30px;
+}
+.reviews .review-box h6{
+	padding: 0 47px;
+	font-size: 18px;
+}
+.reviews .review-box p{
+	margin-top: 25px;
+	color:#ccc;
+}
+
+/*order-section csss start*/
+.order-section{
+	width: 100%;
+	padding: 80px 0;
+	background: url(../img/Section.png)center top no-repeat;
+	background-size: cover;
+}
+.order-section .img-box{}
+.order-section .img-box img{}
+.order-section .inner-order {
+    text-align: center;
+    margin-top: -15px;
+}
+.order-section .inner-order h3{
+	color: #cc9900;
+	font-size: 32px;
+}
+.order-section .inner-order img{
+	padding: 10px;
+}
+.order-section .inner-order p{
+	padding: 8px 70px;
+}
+.order-section .form-group{
+	margin-left: 80px;
+}
+.order-section .form-group h5{
+	text-align: left;
+    font-size: 18px;
+    color: #c9a131;
+    margin-top: 5px;
+}
+.order-section .form-group .form-control {
+    display: block;
+    width: 95%;
+    padding: 4px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    
+}
+.order-section .last-button{
+	padding: 26px 0px;
+	margin-left: -50px;
+}
+.order-section .last-button .btn-info{
+	padding: 5px 40px;
+    background: #c9a131;
+    border: 1px solid #c9a131;
+    transition: 0.4s;
+}
+
+.order-section .last-button .btn-info:hover{
+	background: #ad972f;
+}
+/*Footer-section css*/
+
+.Footer-section{
+	width:100%;
+	padding: 60px 0;
+	background: #131313;
+	text-align: center;
+	color:#fff;
+}
+.Footer-section .footer-inner{}
+.Footer-section .footer-inner h5{}
+.Footer-section .footer-inner img{
+	padding: 8px 0;
+}
+.Footer-section .footer-inner p{
+	padding: 17px 0px;
+}
+.Footer-section .footer-inner ul{
+	padding-left: 0;
+}
+.Footer-section .footer-inner ul li{
+	list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+.Footer-section .footer-inner ul li i{
+	color:#fff;
+	font-size: 18px;
+	transition: 0.4s;
+}
+.Footer-section .footer-inner ul li i:hover{
+	color:#c89f2d;
+}
+
+/*Responsive css*/
+
+@media (min-width: 0px) and (max-width: 575px){
+	.header {
+    	width: 170%;
+	}
+	.section-content h1 {
+    	font-size: 40px;
+    	padding: 0px 0px;
+    	font-weight: 300;
+	}
+	.service {
+    	width: 170%;
+    	padding: 36px 0;
+	}
+	.ingredients {
+    	width: 170%;
+    	padding: 40px 0;
+	}
+	.menu {
+    	width: 170%;
+    	padding: 0px 0;
+	}
+	.menu .menu-box {
+    	padding: 30px 80px;
+	}
+	.reviews {
+    	width: 170%;
+    	padding: 5px 0;
+	}
+	.reviews .review-box {
+    	width: 80%;
+    	height: 99%;
+    	margin-left: 52px;
+    	padding: 0px;
+	}
+	.order-section {
+    	width: 170%;
+    	padding: 35px 0;
+	}
+	.order-section .img-box img {
+    	width: 71%;
+    	padding: 8% 8%;
+    	margin-left: 72px;
+	}
+	.Footer-section {
+    	width: 170%;
+    	padding: 36px 54px;
+	}
+	.Footer-section .footer-inner p {
+    	font-size: 16px;
+	}
+
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+	.section-content h1 {
+    	padding: 0px 0px;
+    	font-weight: 400;
+	}
+	.reviews .review-box {
+    	width: 90%;
+    	margin-left: 27px;
+    	padding: 0px;
+	}
+	.order-section .inner-order {
+    	margin-top: 35px;
+	}
+	.Footer-section {
+    	padding: 30px 0px;
+	}
+	
+
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+	.header {
+    width: 115%;
+	}
+	.service {
+    	width: 115%;
+    	padding: 40px 0px;
+	}
+	.section-content h1 {
+    	padding: 0px 0px;
+    	font-weight: 800;
+	}
+	.ingredients {
+    	width: 115%;
+    	padding: 0px 0;
+	}
+	.ingredients .box {
+    	width: 119%;
+    	height: 98%;
+    	padding: 12px;
+	}
+	.menu {
+    	width: 115%;
+    	padding: 0px 0;
+	}
+	.menu .menu-box {
+    	padding: 40px 29px;
+    	margin-left: -74px;
+	}
+	.menu .menu-box1 {
+    	padding: 0px 0px;
+	}
+	.menu .menu-box2 {
+    	padding: 32px 32px;
+	}
+	.reviews {
+    	width: 115%;
+    	padding: 35px 0;
+	}
+	.reviews .review-box {
+    	width: 81%;
+    	height: 97%;
+    	margin-left: 78px;
+    	padding: 24px;
+	}
+	.order-section {
+    	width: 115%;
+    	padding: 44px 0px;
+	}
+	.order-section .inner-order p {
+    	padding: 8px 0px;
+	}
+	.order-section .form-group {
+    	margin-left: 117px;
+	}
+	.Footer-section {
+    	width: 115%;
+    	padding: 36px 0;
+	}
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
